@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 with open('README.md') as f:
     readme = f.read()
@@ -14,7 +14,6 @@ setup(name='sample',
       author_email='anubhavj880@gmail.com',
       url='https://github.com/anubhavj880/sample',
       license=license,
-      include_package_data=True,
       packages=['package1', 'package2', 'package1.subpackage1_1', 'package2.subpackage2_1'],
       py_modules=['home'],
       data_files=[('.', ['README.md', 'LICENSE'])]
