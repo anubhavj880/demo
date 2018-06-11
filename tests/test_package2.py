@@ -6,7 +6,7 @@ from package2 import expo
 from package2.subpackage2_1 import stat
 
 
-class TestPackag1(unittest.TestCase):
+class TestPackag2(unittest.TestCase):
     a = 0
     b = 0
 
