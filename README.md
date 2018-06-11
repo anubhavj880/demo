@@ -7,4 +7,4 @@ Following is the command to pack your python project in zip or wheel
 
 Following are the command to intall the package
 1. **python setup.py install** from zip
-2. **pip install <package-name>**
+2. **pip install package-name**
