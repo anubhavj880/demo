@@ -5,7 +5,9 @@ from tests import test_package1
 
 def suite():
     suite = unittest.TestSuite()
-    suite.addTest(test_package1.TestPackag1('test_add_integers'))
+    result = unittest.TestResult()
+    suite.addTest(test_package1.TestPackag1())
+
     return suite
 
 
