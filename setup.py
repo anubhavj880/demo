@@ -14,7 +14,7 @@ setup(name='sample',
       author_email='anubhavj880@gmail.com',
       url='https://github.com/anubhavj880/sample',
       license=license,
-      packages=['package1', 'package2', 'package1.subpackage1_1', 'package2.subpackage2_1'],
+      packages=['package1', 'package2', 'package1.subpackage1_1', 'package2.subpackage2_1', 'tests'],
       py_modules=['home'],
       data_files=[('.', ['README.md', 'LICENSE'])]
       )
