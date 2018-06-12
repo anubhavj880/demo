@@ -31,6 +31,5 @@ class TestPackag2(unittest.TestCase):
         a = 0
         b = 0
 
-
 if __name__ == '__main__':
     unittest.main()
