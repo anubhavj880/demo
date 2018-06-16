@@ -6,8 +6,6 @@ with open('README.md') as f:
 with open('LICENSE') as f:
     license = f.read()
 
-print("hello")
-
 setup(name='demo',
       version='1.0',
       description='Python Distribution Utilities',
